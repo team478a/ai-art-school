@@ -1,0 +1,35 @@
+# Runtime and local environment
+.env
+.env.*
+config/db.php
+config/installed.lock
+
+# Generated/user data
+storage/
+uploads/
+vendor/
+node_modules/
+
+# Logs, caches, and temporary files
+*.log
+*.tmp
+*.cache
+.cache/
+tmp/
+temp/
+
+# Update packages and local work artifacts
+*.zip
+aiart_update_*/
+fix_*/
+update_*/
+*_payload.php
+*_probe*.php
+opcache_reset*.php
+sidebar_finder*.php
+
+# Local tooling
+.codex/
+.agents/
+.DS_Store
+Thumbs.db
